@@ -1,3 +1,3 @@
-Class Song < ActiveRecord::Base
+class Song < ActiveRecord::Base
 	belongs_to :album
 end

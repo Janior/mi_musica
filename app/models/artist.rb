@@ -1,4 +1,4 @@
-Class artist < ActiveRecord::Base
+class artist < ActiveRecord::Base
 	belongs_to :artist
 	has_many :songs	
 end
