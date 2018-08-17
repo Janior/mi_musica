@@ -1,1 +1,14 @@
-<h1>Hola J@nior</h1>
+<h1>Artistas</h1>
+
+<table>
+	<rt>
+		<tr>Nombre</tr>
+		<tr>Url</tr>
+	</rt>
+	<% @artists.each do |artist| %>
+      <tr>
+      	<td><%= artist.name %></td>
+        <td><img src="<%= artist.image_url %>"></td>
+      </tr>
+	<% end %>
+</table>
