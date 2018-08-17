@@ -16,6 +16,9 @@ ActiveRecord::Schema.define(version: 2018_08_14_184128) do
   end
 
   create_table "artists", force: :cascade do |t|
+  	  t.string "name"
+      t.string "image_url"
+      
   end
 
   create_table "songs", force: :cascade do |t|
