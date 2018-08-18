@@ -15,5 +15,5 @@ Rails.application.routes.draw do
   post '/artists', to: 'artists#create'
   get '/artists/:id', to: 'artists#show', as: 'artist'
   get '/artists/:id/edit', to: 'artists#edit'
-
+  patch '/artists/:id', to: 'artists#update'
 end
