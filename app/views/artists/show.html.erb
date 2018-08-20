@@ -11,7 +11,7 @@
             <img src="<%= album.image_url %>" alt="<%= album.name %>">
             <div class="caption">
               <h5><%= album.name %></h5>
-              <p><%= album.released_at%></p>
+              <p><%= l album.released_at, format: '%Y' if album.released_at %></p>
             </div>
           </div>
           </div>
